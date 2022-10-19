@@ -35,4 +35,8 @@ In addition, I tested **clustering** approach in order to improve my model forec
 
 ![banknote_profiling](https://github.com/marcadeant/ONCFM/blob/main/banknote_profiling.PNG)
 
+**Comment** : Profiling between true and false banknote's nature show us that `margin_low` and `lenght` are both good features for our models predicting the correct answer. 
 
+Accuracy speaking, I let you take a look at logistic regression and clustering models performance with **confusion matrix** I made to compare these 2-differents artifical intelligence approach. 
+
+![performance array](https://github.com/marcadeant/ONCFM/blob/main/performance_array.PNG)
