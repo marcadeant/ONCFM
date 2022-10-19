@@ -12,9 +12,9 @@ In this section, I will explain what the data looks like before feeding and trai
 1. Use of **image detection** machine learning algorithm to split on fake/true banknote samples.
 2. Use of **banknote dimensional parameters** to determine the perfect fake/true banknote profil. 
 
-For the purpose of this project, I worked with the banknote dimensional parameters. Indeed, data sample that I used shaped like banknote for rows and 6-dimensional parameters for columns with an `is_genuine` extra-columns. Feel free to check-out the whole data csv [here](https://github.com/marcadeant/ONCFM/blob/main/Data/billets.csv).
+For the purpose of this project, I worked with the banknote dimensional parameters. Indeed, data sample that I used shaped like banknote for rows and 6-dimensional parameters for columns with an `is_genuine` extra-column. Feel free to check-out the whole data csv [here](https://github.com/marcadeant/ONCFM/blob/main/Data/billets.csv).
 
-Every american banknote was described as follow :
+Every american banknote is described as follow :
 
 1. `height_left` : banknote left vertical side in mm 
 2. `height_right` : banknote right vertical side in mm 
